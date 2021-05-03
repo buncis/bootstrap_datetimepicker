@@ -4,6 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'bootstrap_datetimepicker/version'
 
 Gem::Specification.new do |s|
+  s.add_dependency 'momentjs-rails', '~> 2.9', '>= 2.9.0'
   s.name        = 'bootstrap_datetimepicker'
   s.version     = '0.0.13'
   s.summary     = "bootstrapdatetimepicker!"
